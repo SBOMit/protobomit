@@ -1,1431 +1,1536 @@
 {
+ "spdxVersion": "SPDX-2.3",
+ "dataLicense": "CC0-1.0",
  "SPDXID": "SPDXRef-DOCUMENT",
  "name": "galadriel_Linux_x86_64.tar.gz",
- "spdxVersion": "SPDX-2.2",
+ "documentNamespace": "https://anchore.com/syft/file/galadriel_Linux_x86_64.tar.gz-043f46d7-de80-4ee9-9060-32e67a81392c",
  "creationInfo": {
-  "created": "2023-08-25T18:34:16.932409562Z",
+  "licenseListVersion": "3.21",
   "creators": [
    "Organization: Anchore, Inc",
-   "Tool: syft-0.60.3"
+   "Tool: syft-0.84.0"
   ],
-  "licenseListVersion": "3.18"
+  "created": "2023-08-26T17:11:43Z"
  },
- "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/file/galadriel_Linux_x86_64.tar.gz-18755b15-746b-4878-a2a8-4e458887051c",
  "packages": [
   {
-   "SPDXID": "SPDXRef-d9844dca07cb62ca",
    "name": "github.com/HewlettPackard/galadriel",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-HewlettPackard-galadriel-4c0ae057cb0ee678",
+   "versionInfo": "v0.0.1-next",
    "downloadLocation": "NOASSERTION",
-   "externalRefs": [
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:HewlettPackard:galadriel:v0.0.0-20230825182532-5c88d16c9b38:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/HewlettPackard/galadriel@v0.0.0-20230825182532-5c88d16c9b38",
-     "referenceType": "purl"
-    }
-   ],
    "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v0.0.0-20230825182532-5c88d16c9b38"
-  },
-  {
-   "SPDXID": "SPDXRef-a257ad8ae5838a8",
-   "name": "github.com/HewlettPackard/galadriel",
-   "licenseConcluded": "NONE",
-   "downloadLocation": "NOASSERTION",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:HewlettPackard:galadriel:v0.0.0-20230825182532-5c88d16c9b38:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:HewlettPackard:galadriel:v0.0.1-next:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/HewlettPackard/galadriel@v0.0.0-20230825182532-5c88d16c9b38",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/HewlettPackard/galadriel@v0.0.1-next"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v0.0.0-20230825182532-5c88d16c9b38"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-f249d7998888671f",
+   "name": "github.com/HewlettPackard/galadriel",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-HewlettPackard-galadriel-7fae39c9a7bfe727",
+   "versionInfo": "v0.0.1-next",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:HewlettPackard:galadriel:v0.0.1-next:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/HewlettPackard/galadriel@v0.0.1-next"
+    }
+   ]
+  },
+  {
    "name": "github.com/golang-jwt/jwt",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-golang-jwt-jwt-95484a83ba8bf23d",
+   "versionInfo": "v3.2.2+incompatible",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "21f575d8af3100a02766a757573099f933a36e867691e2e0f357977d6dcefa86"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:golang-jwt:jwt:v3.2.2\\+incompatible:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang-jwt:jwt:v3.2.2\\+incompatible:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:golang_jwt:jwt:v3.2.2\\+incompatible:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang_jwt:jwt:v3.2.2\\+incompatible:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:golang:jwt:v3.2.2\\+incompatible:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:jwt:v3.2.2\\+incompatible:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/golang-jwt/jwt@v3.2.2+incompatible",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/golang-jwt/jwt@v3.2.2+incompatible"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v3.2.2+incompatible"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-31d0a6925a04cb9d",
    "name": "github.com/golang/protobuf",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-golang-protobuf-1990f7671b605e0a",
+   "versionInfo": "v1.5.2",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "44e3ca04d15f4203943227c7c8ff8a61bbe98db76814db3e68aec35e58e2d13c"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: harvester_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/golang/protobuf@v1.5.2",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/golang/protobuf@v1.5.2"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v1.5.2"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-cba76041027f8768",
    "name": "github.com/google/uuid",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-google-uuid-71e837de0d5e835e",
+   "versionInfo": "v1.3.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "b7a2625e09b05cc8c4b3c56eb172099360571ec9fec31f0165d4daa19e5fbbb2"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: harvester_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:google:uuid:v1.3.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:google:uuid:v1.3.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/google/uuid@v1.3.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/google/uuid@v1.3.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v1.3.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-ef2001e81d6e7caf",
    "name": "github.com/google/uuid",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-google-uuid-eb709b1b5afd0f4d",
+   "versionInfo": "v1.3.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "b7a2625e09b05cc8c4b3c56eb172099360571ec9fec31f0165d4daa19e5fbbb2"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:google:uuid:v1.3.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:google:uuid:v1.3.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/google/uuid@v1.3.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/google/uuid@v1.3.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v1.3.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-a5e1a8a47c982035",
    "name": "github.com/hashicorp/hcl",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-hashicorp-hcl-b3acc550d042775d",
+   "versionInfo": "v1.0.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "d009e5ce3a62e2f11ab1378d167da62c98134b0b74fbab1fb224c6f2a7161b1e"
     }
    ],
-   "downloadLocation": "NOASSERTION",
-   "externalRefs": [
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hashicorp:hcl:v1.0.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/hashicorp/hcl@v1.0.0",
-     "referenceType": "purl"
-    }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v1.0.0"
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:hashicorp:hcl:v1.0.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/hashicorp/hcl@v1.0.0"
+    }
+   ]
   },
   {
-   "SPDXID": "SPDXRef-5e7b6c5a43bebe79",
    "name": "github.com/hashicorp/hcl",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-hashicorp-hcl-a05e94a4cf89482f",
+   "versionInfo": "v1.0.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "d009e5ce3a62e2f11ab1378d167da62c98134b0b74fbab1fb224c6f2a7161b1e"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hashicorp:hcl:v1.0.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:hashicorp:hcl:v1.0.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/hashicorp/hcl@v1.0.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/hashicorp/hcl@v1.0.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v1.0.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-bac6a3a3d07e1252",
    "name": "github.com/labstack/echo/v4",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-labstack-echo-v4-dcfe47da44b1c693",
+   "versionInfo": "v4.10.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "e428b29e08a110ee075eccf7bd5b099fb7fcc40956c11af7698e88876f3464a0"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:labstack:echo\\/v4:v4.10.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:labstack:echo\\/v4:v4.10.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/labstack/echo/v4@v4.10.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/labstack/echo/v4@v4.10.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v4.10.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-4e80fabe6ce894e8",
    "name": "github.com/labstack/gommon",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-labstack-gommon-2c36992114c62349",
+   "versionInfo": "v0.4.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "cbb72fb6110011b534c8739fe1ac47f191b6347f249c1f62352a133bc772224f"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:labstack:gommon:v0.4.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:labstack:gommon:v0.4.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/labstack/gommon@v0.4.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/labstack/gommon@v0.4.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v0.4.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-d4e4f4694bed8acd",
    "name": "github.com/mattn/go-colorable",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-mattn-go-colorable-0da42be7d79c2e0c",
+   "versionInfo": "v0.1.13",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "7c5038599c5d105e2d5cf65528c2f00fca149c24d3a34f1db94ef0c5e71d12f0"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:mattn:go-colorable:v0.1.13:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:mattn:go-colorable:v0.1.13:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:mattn:go_colorable:v0.1.13:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:mattn:go_colorable:v0.1.13:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/mattn/go-colorable@v0.1.13",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/mattn/go-colorable@v0.1.13"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v0.1.13"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-abb096b9b5e18ec8",
    "name": "github.com/mattn/go-isatty",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-mattn-go-isatty-331aaf4e488a3205",
+   "versionInfo": "v0.0.16",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "6eadd58c59affec3a31ed744866904578c75009b6f52f389d8f140679fa978a4"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:mattn:go-isatty:v0.0.16:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:mattn:go-isatty:v0.0.16:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:mattn:go_isatty:v0.0.16:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:mattn:go_isatty:v0.0.16:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/mattn/go-isatty@v0.0.16",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/mattn/go-isatty@v0.0.16"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v0.0.16"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-dcafe95f5f88c99f",
    "name": "github.com/pkg/errors",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-pkg-errors-32c2115db595291b",
+   "versionInfo": "v0.9.1",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "14404bc75cd2db5e28c298f2eeab017a2c5b51192e850030acae54c0b193c2de"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: harvester_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/pkg/errors@v0.9.1",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/pkg/errors@v0.9.1"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v0.9.1"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-9a2f0649af48716e",
    "name": "github.com/pkg/errors",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-pkg-errors-ef629e4cdea9ae8a",
+   "versionInfo": "v0.9.1",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "14404bc75cd2db5e28c298f2eeab017a2c5b51192e850030acae54c0b193c2de"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/pkg/errors@v0.9.1",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/pkg/errors@v0.9.1"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v0.9.1"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-c5bd280c4e5dab83",
    "name": "github.com/sirupsen/logrus",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-sirupsen-logrus-5e21773a04cc3470",
+   "versionInfo": "v1.9.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "b6b94d41b3541b739d0eb0e2974dcc09bd47da8f67275c78ff92d8c3b6f20c4d"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: harvester_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:sirupsen:logrus:v1.9.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:sirupsen:logrus:v1.9.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/sirupsen/logrus@v1.9.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/sirupsen/logrus@v1.9.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v1.9.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-f593197de4f41f69",
    "name": "github.com/sirupsen/logrus",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-sirupsen-logrus-6074e8cba0e882ae",
+   "versionInfo": "v1.9.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "b6b94d41b3541b739d0eb0e2974dcc09bd47da8f67275c78ff92d8c3b6f20c4d"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:sirupsen:logrus:v1.9.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:sirupsen:logrus:v1.9.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/sirupsen/logrus@v1.9.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/sirupsen/logrus@v1.9.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v1.9.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-16b9f7a6c7f87674",
    "name": "github.com/spf13/cobra",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-spf13-cobra-83866566d50e6010",
+   "versionInfo": "v1.6.1",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "a3de2888fc92e0a0f598fcb67e67186071df0b12ea62324e846b021c566d1330"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: harvester_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:spf13:cobra:v1.6.1:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:spf13:cobra:v1.6.1:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/spf13/cobra@v1.6.1",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/spf13/cobra@v1.6.1"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v1.6.1"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-2ce2b00a87800aa6",
    "name": "github.com/spf13/cobra",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-spf13-cobra-3a7656e306e0cb4e",
+   "versionInfo": "v1.6.1",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "a3de2888fc92e0a0f598fcb67e67186071df0b12ea62324e846b021c566d1330"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:spf13:cobra:v1.6.1:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:spf13:cobra:v1.6.1:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/spf13/cobra@v1.6.1",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/spf13/cobra@v1.6.1"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v1.6.1"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-ce7936a7e7c9d8b8",
    "name": "github.com/spf13/pflag",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-spf13-pflag-ab5a56fcaff743e1",
+   "versionInfo": "v1.0.5",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "8b2f951543823f56bef3216da3f76b836089e6ed3246807b7d9c370cabff2570"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: harvester_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/spf13/pflag@v1.0.5",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/spf13/pflag@v1.0.5"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v1.0.5"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-44a65fd02fbd9adc",
    "name": "github.com/spf13/pflag",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-spf13-pflag-f55f2ab5056e15fd",
+   "versionInfo": "v1.0.5",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "8b2f951543823f56bef3216da3f76b836089e6ed3246807b7d9c370cabff2570"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/spf13/pflag@v1.0.5",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/spf13/pflag@v1.0.5"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v1.0.5"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-dfb675db24dda4c9",
    "name": "github.com/spiffe/go-spiffe/v2",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-spiffe-go-spiffe-v2-bda8a492f8a109ae",
+   "versionInfo": "v2.1.2",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "9df370a2938feead2ab1653a014012aa66ed6158b01c0eafb87c80b6a149b4d7"
     }
    ],
-   "downloadLocation": "NOASSERTION",
-   "externalRefs": [
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:spiffe:go-spiffe\\/v2:v2.1.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:spiffe:go_spiffe\\/v2:v2.1.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/spiffe/go-spiffe/v2@v2.1.2",
-     "referenceType": "purl"
-    }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v2.1.2"
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:spiffe:go-spiffe\\/v2:v2.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:spiffe:go_spiffe\\/v2:v2.1.2:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/spiffe/go-spiffe/v2@v2.1.2"
+    }
+   ]
   },
   {
-   "SPDXID": "SPDXRef-c9844a9c27ae82d5",
    "name": "github.com/spiffe/go-spiffe/v2",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-spiffe-go-spiffe-v2-227f917fbf05143c",
+   "versionInfo": "v2.1.2",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "9df370a2938feead2ab1653a014012aa66ed6158b01c0eafb87c80b6a149b4d7"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:spiffe:go-spiffe\\/v2:v2.1.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:spiffe:go-spiffe\\/v2:v2.1.2:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:spiffe:go_spiffe\\/v2:v2.1.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:spiffe:go_spiffe\\/v2:v2.1.2:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/spiffe/go-spiffe/v2@v2.1.2",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/spiffe/go-spiffe/v2@v2.1.2"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v2.1.2"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-c375eab594400fe4",
    "name": "github.com/spiffe/spire-api-sdk",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-spiffe-spire-api-sdk-d652c5b731ecec4a",
+   "versionInfo": "v1.5.4",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "8f5101d188d95deabaf6edc7af3c3516432a3dea41932f6abee017755f466f2a"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: harvester_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:spiffe:spire-api-sdk:v1.5.4:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:spiffe:spire-api-sdk:v1.5.4:*:*:*:*:*:*:*"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:spiffe:spire_api_sdk:v1.5.4:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:spiffe:spire_api_sdk:v1.5.4:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/spiffe/spire-api-sdk@v1.5.4",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/spiffe/spire-api-sdk@v1.5.4"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v1.5.4"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-f5c965bb591e710f",
    "name": "github.com/valyala/bytebufferpool",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-valyala-bytebufferpool-ca0d7b2af03fb632",
+   "versionInfo": "v1.0.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "1aa0394c2ff4d36d58fdbf451b83a2f4caf7abb5d8c7a2a59736b014885c74fc"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:valyala:bytebufferpool:v1.0.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:valyala:bytebufferpool:v1.0.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/valyala/bytebufferpool@v1.0.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/valyala/bytebufferpool@v1.0.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v1.0.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-36bbb4f39665d687",
    "name": "github.com/valyala/fasttemplate",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-valyala-fasttemplate-f4c3a141653216f2",
+   "versionInfo": "v1.2.2",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "9712d71b4b84dd09ec865f50c9a2ba5c9c4c5e541910bbc28413829900f42e8a"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:valyala:fasttemplate:v1.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:valyala:fasttemplate:v1.2.2:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/valyala/fasttemplate@v1.2.2",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/valyala/fasttemplate@v1.2.2"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v1.2.2"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-47ebec63b28b1db8",
    "name": "github.com/zeebo/errs",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-zeebo-errs-7a3c035a1a62e12f",
+   "versionInfo": "v1.3.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "86689a2aa8186737158112f5564735327dbdd7805bcc1d08071b3e79b7aeb46b"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: harvester_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:zeebo:errs:v1.3.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:zeebo:errs:v1.3.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/zeebo/errs@v1.3.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/zeebo/errs@v1.3.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v1.3.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-25e35d2bd8a531e5",
    "name": "github.com/zeebo/errs",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-zeebo-errs-85daf9a155f823a3",
+   "versionInfo": "v1.3.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "86689a2aa8186737158112f5564735327dbdd7805bcc1d08071b3e79b7aeb46b"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:zeebo:errs:v1.3.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:zeebo:errs:v1.3.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/zeebo/errs@v1.3.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/zeebo/errs@v1.3.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v1.3.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-b7b5204c26a8892c",
    "name": "golang.org/x/crypto",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-golang.org-x-crypto-04a050af857b999a",
+   "versionInfo": "v0.5.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "53fd0cf7b29191216fc83ff715299d3f95b9b30226a4d8257bf1071613ac40f1"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: harvester_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:golang:x\\/crypto:v0.5.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/crypto:v0.5.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/golang.org/x/crypto@v0.5.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/golang.org/x/crypto@v0.5.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v0.5.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-a93434f98108c2be",
    "name": "golang.org/x/crypto",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-golang.org-x-crypto-38526b09d66553e4",
+   "versionInfo": "v0.5.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "53fd0cf7b29191216fc83ff715299d3f95b9b30226a4d8257bf1071613ac40f1"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:golang:x\\/crypto:v0.5.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/crypto:v0.5.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/golang.org/x/crypto@v0.5.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/golang.org/x/crypto@v0.5.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v0.5.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-34a11dc259065ae3",
    "name": "golang.org/x/net",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-golang.org-x-net-52cecef46c4dc474",
+   "versionInfo": "v0.5.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "1b24f89cafd80c74aa6b5738ef9de8b980836a33982938daf576ff387b60bd2c"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: harvester_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:golang:x\\/net:v0.5.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/net:v0.5.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/golang.org/x/net@v0.5.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/golang.org/x/net@v0.5.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v0.5.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-91293b627c22d06d",
    "name": "golang.org/x/net",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-golang.org-x-net-25cc2018efaa384e",
+   "versionInfo": "v0.5.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "1b24f89cafd80c74aa6b5738ef9de8b980836a33982938daf576ff387b60bd2c"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:golang:x\\/net:v0.5.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/net:v0.5.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/golang.org/x/net@v0.5.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/golang.org/x/net@v0.5.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v0.5.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-a36c3c91a79253e0",
    "name": "golang.org/x/sys",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-golang.org-x-sys-423e8ed22724e51e",
+   "versionInfo": "v0.4.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "66bd8916d450357dc1099f18b71444f61349602f09e88d4c55b320ea8c14a75f"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: harvester_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:golang:x\\/sys:v0.4.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/sys:v0.4.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/golang.org/x/sys@v0.4.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/golang.org/x/sys@v0.4.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v0.4.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-3a1a80b667908a53",
    "name": "golang.org/x/sys",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-golang.org-x-sys-76269b2f3185dfb4",
+   "versionInfo": "v0.4.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "66bd8916d450357dc1099f18b71444f61349602f09e88d4c55b320ea8c14a75f"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:golang:x\\/sys:v0.4.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/sys:v0.4.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/golang.org/x/sys@v0.4.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/golang.org/x/sys@v0.4.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v0.4.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-c3eda5f4a8b8ac63",
    "name": "golang.org/x/text",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-golang.org-x-text-5408f7c69b643de3",
+   "versionInfo": "v0.6.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "dd799d6b3595fae6dfed080749359eca41ce722e6879e91a18904b92b91ac389"
     }
    ],
-   "downloadLocation": "NOASSERTION",
-   "externalRefs": [
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:golang:x\\/text:v0.6.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/golang.org/x/text@v0.6.0",
-     "referenceType": "purl"
-    }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v0.6.0"
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/text:v0.6.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/golang.org/x/text@v0.6.0"
+    }
+   ]
   },
   {
-   "SPDXID": "SPDXRef-e8015a9cbee9df39",
    "name": "golang.org/x/text",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-golang.org-x-text-944a29ec34915146",
+   "versionInfo": "v0.6.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "dd799d6b3595fae6dfed080749359eca41ce722e6879e91a18904b92b91ac389"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:golang:x\\/text:v0.6.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/text:v0.6.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/golang.org/x/text@v0.6.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/golang.org/x/text@v0.6.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v0.6.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-1f1bf0073ef9338a",
    "name": "golang.org/x/time",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-golang.org-x-time-8b789010e77989cd",
+   "versionInfo": "v0.2.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "e7623fd4be78c7211001876d712bb1b624fce0a1984c1197c1acb1988a4d2611"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: server_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:golang:x\\/time:v0.2.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/time:v0.2.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/golang.org/x/time@v0.2.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/golang.org/x/time@v0.2.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v0.2.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-c8e7a866da3e98bc",
    "name": "google.golang.org/genproto",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-google.golang.org-genproto-369d163dd5e7bc1e",
+   "versionInfo": "v0.0.0-20230109162033-3c3c17ce83e6",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "b949fa1ac80a2b67822346d679132044272a0da417603b81fb9b570395de83ff"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: harvester_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:google:genproto:v0.0.0-20230109162033-3c3c17ce83e6:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:google:genproto:v0.0.0-20230109162033-3c3c17ce83e6:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/google.golang.org/genproto@v0.0.0-20230109162033-3c3c17ce83e6",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/google.golang.org/genproto@v0.0.0-20230109162033-3c3c17ce83e6"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v0.0.0-20230109162033-3c3c17ce83e6"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-f267bae3eae07d10",
    "name": "google.golang.org/grpc",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-google.golang.org-grpc-ca309cbd0efbfa53",
+   "versionInfo": "v1.52.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "91de3c52253b107b15e2b9cbc8e251b8ffc897f50713b81d0c043e49923b9d99"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: harvester_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:google:grpc:v1.52.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:google:grpc:v1.52.0:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/google.golang.org/grpc@v1.52.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/google.golang.org/grpc@v1.52.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v1.52.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-40dfed3bfb752400",
    "name": "google.golang.org/protobuf",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-google.golang.org-protobuf-2c74ef61b5fc7bfa",
+   "versionInfo": "v1.28.1",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "77435fc1180fb67a3907559ae8bd83006f8a8afaa476eb4c7f552174dc75ef9c"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: harvester_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:google:protobuf:v1.28.1:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:google:protobuf:v1.28.1:*:*:*:*:*:*:*"
     },
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/google.golang.org/protobuf@v1.28.1",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/google.golang.org/protobuf@v1.28.1"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v1.28.1"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-2032ad8130e0a586",
    "name": "gopkg.in/square/go-jose.v2",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-gopkg.in-square-go-jose.v2-ee814ebe5336c4f7",
+   "versionInfo": "v2.6.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "34693be164e73ca04d521373417ecf61c4cb523a2aee6cca93638a6efc24da22"
     }
    ],
-   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: harvester_cli",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
    "externalRefs": [
     {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/gopkg.in/square/go-jose.v2@v2.6.0",
-     "referenceType": "purl"
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/gopkg.in/square/go-jose.v2@v2.6.0"
     }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: harvester_cli",
-   "versionInfo": "v2.6.0"
+   ]
   },
   {
-   "SPDXID": "SPDXRef-22756dd1324f853e",
    "name": "gopkg.in/square/go-jose.v2",
-   "licenseConcluded": "NONE",
+   "SPDXID": "SPDXRef-Package-go-module-gopkg.in-square-go-jose.v2-1c08497a43bbd49f",
+   "versionInfo": "v2.6.0",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "34693be164e73ca04d521373417ecf61c4cb523a2aee6cca93638a6efc24da22"
     }
    ],
-   "downloadLocation": "NOASSERTION",
-   "externalRefs": [
-    {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/gopkg.in/square/go-jose.v2@v2.6.0",
-     "referenceType": "purl"
-    }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: server_cli",
-   "versionInfo": "v2.6.0"
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/gopkg.in/square/go-jose.v2@v2.6.0"
+    }
+   ]
   }
  ],
  "files": [
   {
-   "SPDXID": "SPDXRef-367a886d576a2cf3",
+   "fileName": "/tmp/syft-archive-contents-197893980",
+   "SPDXID": "SPDXRef-File-tmp-syft-archive-contents-197893980-29f06bf5a07fb554",
+   "fileTypes": [
+    "OTHER"
+   ],
+   "checksums": [
+    {
+     "algorithm": "SHA1",
+     "checksumValue": "0000000000000000000000000000000000000000"
+    }
+   ],
    "licenseConcluded": "NOASSERTION",
+   "copyrightText": ""
+  },
+  {
+   "fileName": "README.md",
+   "SPDXID": "SPDXRef-File-README.md-367a886d576a2cf3",
+   "fileTypes": [
+    "TEXT"
+   ],
    "checksums": [
     {
      "algorithm": "SHA256",
      "checksumValue": "2fb77dd1ec890fff45a884f8b92a828fdba94eb64a5f5c650f105e9622ac37b6"
     }
    ],
-   "fileName": "README.md",
-   "fileTypes": [
-    "TEXT"
-   ]
+   "licenseConcluded": "NOASSERTION",
+   "copyrightText": ""
   },
   {
-   "SPDXID": "SPDXRef-c690273d061aa9d0",
-   "licenseConcluded": "NOASSERTION",
-   "checksums": [
-    {
-     "algorithm": "SHA256",
-     "checksumValue": "c0f22c4883829a9c020922950633c6f128ed009201507c1704c53996f4838daf"
-    }
-   ],
    "fileName": "harvester_cli",
+   "SPDXID": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
    "fileTypes": [
     "APPLICATION",
     "BINARY"
-   ]
-  },
-  {
-   "SPDXID": "SPDXRef-75d64bbdc08ff502",
-   "licenseConcluded": "NOASSERTION",
+   ],
    "checksums": [
     {
      "algorithm": "SHA256",
-     "checksumValue": "f866cffba9b7fd2211d49543e7a4a06a4cf09f9c000ae312dc15adcc18e6218b"
+     "checksumValue": "df9800acb98445cdd537c2eedb686dfd300c28d5754208e217bd7cd0f51d3ddc"
     }
    ],
+   "licenseConcluded": "NOASSERTION",
+   "copyrightText": ""
+  },
+  {
    "fileName": "server_cli",
+   "SPDXID": "SPDXRef-File-server-cli-75d64bbdc08ff502",
    "fileTypes": [
     "APPLICATION",
     "BINARY"
-   ]
+   ],
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "e2f03b0caea89eafda5ad81aa03855c2daf4cf4685befb05881743fb5aaa7891"
+    }
+   ],
+   "licenseConcluded": "NOASSERTION",
+   "copyrightText": ""
   }
  ],
  "relationships": [
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-16b9f7a6c7f87674"
+   "spdxElementId": "SPDXRef-Package-go-module-golang.org-x-crypto-04a050af857b999a",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-1f1bf0073ef9338a"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-mattn-go-colorable-0da42be7d79c2e0c",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-2032ad8130e0a586"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-golang-protobuf-1990f7671b605e0a",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-22756dd1324f853e"
+   "spdxElementId": "SPDXRef-Package-go-module-gopkg.in-square-go-jose.v2-1c08497a43bbd49f",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-25e35d2bd8a531e5"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-spiffe-go-spiffe-v2-227f917fbf05143c",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-2ce2b00a87800aa6"
+   "spdxElementId": "SPDXRef-Package-go-module-golang.org-x-net-25cc2018efaa384e",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-31d0a6925a04cb9d"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-labstack-gommon-2c36992114c62349",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-34a11dc259065ae3"
+   "spdxElementId": "SPDXRef-Package-go-module-google.golang.org-protobuf-2c74ef61b5fc7bfa",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-36bbb4f39665d687"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-pkg-errors-32c2115db595291b",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-3a1a80b667908a53"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-mattn-go-isatty-331aaf4e488a3205",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-40dfed3bfb752400"
+   "spdxElementId": "SPDXRef-Package-go-module-google.golang.org-genproto-369d163dd5e7bc1e",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-44a65fd02fbd9adc"
+   "spdxElementId": "SPDXRef-Package-go-module-golang.org-x-crypto-38526b09d66553e4",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-47ebec63b28b1db8"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-spf13-cobra-3a7656e306e0cb4e",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-4e80fabe6ce894e8"
+   "spdxElementId": "SPDXRef-Package-go-module-golang.org-x-sys-423e8ed22724e51e",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-5e7b6c5a43bebe79"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-HewlettPackard-galadriel-4c0ae057cb0ee678",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-91293b627c22d06d"
+   "spdxElementId": "SPDXRef-Package-go-module-golang.org-x-net-52cecef46c4dc474",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-9a2f0649af48716e"
+   "spdxElementId": "SPDXRef-Package-go-module-golang.org-x-text-5408f7c69b643de3",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-a257ad8ae5838a8"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-sirupsen-logrus-5e21773a04cc3470",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-a36c3c91a79253e0"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-sirupsen-logrus-6074e8cba0e882ae",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-a5e1a8a47c982035"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-google-uuid-71e837de0d5e835e",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-a93434f98108c2be"
+   "spdxElementId": "SPDXRef-Package-go-module-golang.org-x-sys-76269b2f3185dfb4",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-abb096b9b5e18ec8"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-zeebo-errs-7a3c035a1a62e12f",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-b7b5204c26a8892c"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-HewlettPackard-galadriel-7fae39c9a7bfe727",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-bac6a3a3d07e1252"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-spf13-cobra-83866566d50e6010",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-c375eab594400fe4"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-zeebo-errs-85daf9a155f823a3",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-c3eda5f4a8b8ac63"
+   "spdxElementId": "SPDXRef-Package-go-module-golang.org-x-time-8b789010e77989cd",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-c5bd280c4e5dab83"
+   "spdxElementId": "SPDXRef-Package-go-module-golang.org-x-text-944a29ec34915146",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-c8e7a866da3e98bc"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-golang-jwt-jwt-95484a83ba8bf23d",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-c9844a9c27ae82d5"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-hashicorp-hcl-a05e94a4cf89482f",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-cba76041027f8768"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-spf13-pflag-ab5a56fcaff743e1",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-ce7936a7e7c9d8b8"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-hashicorp-hcl-b3acc550d042775d",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-d4e4f4694bed8acd"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-spiffe-go-spiffe-v2-bda8a492f8a109ae",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-d9844dca07cb62ca"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-valyala-bytebufferpool-ca0d7b2af03fb632",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-dcafe95f5f88c99f"
+   "spdxElementId": "SPDXRef-Package-go-module-google.golang.org-grpc-ca309cbd0efbfa53",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-dfb675db24dda4c9"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-spiffe-spire-api-sdk-d652c5b731ecec4a",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-e8015a9cbee9df39"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-labstack-echo-v4-dcfe47da44b1c693",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-ef2001e81d6e7caf"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-google-uuid-eb709b1b5afd0f4d",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-f249d7998888671f"
+   "spdxElementId": "SPDXRef-Package-go-module-gopkg.in-square-go-jose.v2-ee814ebe5336c4f7",
+   "relatedSpdxElement": "SPDXRef-File-harvester-cli-c690273d061aa9d0",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-f267bae3eae07d10"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-pkg-errors-ef629e4cdea9ae8a",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-f593197de4f41f69"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-valyala-fasttemplate-f4c3a141653216f2",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
   },
   {
-   "spdxElementId": "SPDXRef-6407f307e54655c0e93f4121106dc701cd883d66768c97afc49e1b902fbad0c4",
-   "relationshipType": "CONTAINS",
-   "relatedSpdxElement": "SPDXRef-f5c965bb591e710f"
+   "spdxElementId": "SPDXRef-Package-go-module-github.com-spf13-pflag-f55f2ab5056e15fd",
+   "relatedSpdxElement": "SPDXRef-File-server-cli-75d64bbdc08ff502",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-DOCUMENT",
+   "relatedSpdxElement": "SPDXRef-DOCUMENT",
+   "relationshipType": "DESCRIBES"
   }
  ]
 }

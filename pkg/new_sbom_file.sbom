@@ -1,0 +1,841 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "DOCUMENT",
+  "version": 0,
+  "metadata": {},
+  "components": [
+    {
+      "bom-ref": "Package-go-module-github.com-valyala-fasttemplate-f4c3a141653216f2",
+      "type": "application",
+      "name": "github.com/valyala/fasttemplate",
+      "version": "v1.2.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9712d71b4b84dd09ec865f50c9a2ba5c9c4c5e541910bbc28413829900f42e8a"
+        }
+      ],
+      "purl": "pkg:golang/github.com/valyala/fasttemplate@v1.2.2",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:valyala:fasttemplate:v1.2.2:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-zeebo-errs-85daf9a155f823a3",
+      "type": "application",
+      "name": "github.com/zeebo/errs",
+      "version": "v1.3.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "86689a2aa8186737158112f5564735327dbdd7805bcc1d08071b3e79b7aeb46b"
+        }
+      ],
+      "purl": "pkg:golang/github.com/zeebo/errs@v1.3.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:zeebo:errs:v1.3.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-golang.org-x-crypto-38526b09d66553e4",
+      "type": "application",
+      "name": "golang.org/x/crypto",
+      "version": "v0.5.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "53fd0cf7b29191216fc83ff715299d3f95b9b30226a4d8257bf1071613ac40f1"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/crypto@v0.5.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:golang:x\\/crypto:v0.5.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-golang.org-x-text-944a29ec34915146",
+      "type": "application",
+      "name": "golang.org/x/text",
+      "version": "v0.6.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "dd799d6b3595fae6dfed080749359eca41ce722e6879e91a18904b92b91ac389"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/text@v0.6.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:golang:x\\/text:v0.6.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-google.golang.org-genproto-369d163dd5e7bc1e",
+      "type": "application",
+      "name": "google.golang.org/genproto",
+      "version": "v0.0.0-20230109162033-3c3c17ce83e6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b949fa1ac80a2b67822346d679132044272a0da417603b81fb9b570395de83ff"
+        }
+      ],
+      "purl": "pkg:golang/google.golang.org/genproto@v0.0.0-20230109162033-3c3c17ce83e6",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:google:genproto:v0.0.0-20230109162033-3c3c17ce83e6:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-google-uuid-71e837de0d5e835e",
+      "type": "application",
+      "name": "github.com/google/uuid",
+      "version": "v1.3.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b7a2625e09b05cc8c4b3c56eb172099360571ec9fec31f0165d4daa19e5fbbb2"
+        }
+      ],
+      "purl": "pkg:golang/github.com/google/uuid@v1.3.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:google:uuid:v1.3.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-pkg-errors-32c2115db595291b",
+      "type": "application",
+      "name": "github.com/pkg/errors",
+      "version": "v0.9.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "14404bc75cd2db5e28c298f2eeab017a2c5b51192e850030acae54c0b193c2de"
+        }
+      ],
+      "purl": "pkg:golang/github.com/pkg/errors@v0.9.1",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-spf13-pflag-f55f2ab5056e15fd",
+      "type": "application",
+      "name": "github.com/spf13/pflag",
+      "version": "v1.0.5",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8b2f951543823f56bef3216da3f76b836089e6ed3246807b7d9c370cabff2570"
+        }
+      ],
+      "purl": "pkg:golang/github.com/spf13/pflag@v1.0.5",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-golang.org-x-crypto-04a050af857b999a",
+      "type": "application",
+      "name": "golang.org/x/crypto",
+      "version": "v0.5.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "53fd0cf7b29191216fc83ff715299d3f95b9b30226a4d8257bf1071613ac40f1"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/crypto@v0.5.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:golang:x\\/crypto:v0.5.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-google.golang.org-protobuf-2c74ef61b5fc7bfa",
+      "type": "application",
+      "name": "google.golang.org/protobuf",
+      "version": "v1.28.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "77435fc1180fb67a3907559ae8bd83006f8a8afaa476eb4c7f552174dc75ef9c"
+        }
+      ],
+      "purl": "pkg:golang/google.golang.org/protobuf@v1.28.1",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:google:protobuf:v1.28.1:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-golang.org-x-net-25cc2018efaa384e",
+      "type": "application",
+      "name": "golang.org/x/net",
+      "version": "v0.5.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1b24f89cafd80c74aa6b5738ef9de8b980836a33982938daf576ff387b60bd2c"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/net@v0.5.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:golang:x\\/net:v0.5.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-golang.org-x-text-5408f7c69b643de3",
+      "type": "application",
+      "name": "golang.org/x/text",
+      "version": "v0.6.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "dd799d6b3595fae6dfed080749359eca41ce722e6879e91a18904b92b91ac389"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/text@v0.6.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:golang:x\\/text:v0.6.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-HewlettPackard-galadriel-4c0ae057cb0ee678",
+      "type": "application",
+      "name": "github.com/HewlettPackard/galadriel",
+      "version": "v0.0.1-next",
+      "purl": "pkg:golang/github.com/HewlettPackard/galadriel@v0.0.1-next",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:HewlettPackard:galadriel:v0.0.1-next:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        },
+        {
+          "url": "https://archivista.testifysec.io/download/3f9855594d691b35095c35e5f7d64d37ad314d51368678582c719c34aa072afa",
+          "type": "https://witness.testifysec.com/attestation-collection/v0.1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-hashicorp-hcl-b3acc550d042775d",
+      "type": "application",
+      "name": "github.com/hashicorp/hcl",
+      "version": "v1.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d009e5ce3a62e2f11ab1378d167da62c98134b0b74fbab1fb224c6f2a7161b1e"
+        }
+      ],
+      "purl": "pkg:golang/github.com/hashicorp/hcl@v1.0.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:hashicorp:hcl:v1.0.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-spf13-cobra-3a7656e306e0cb4e",
+      "type": "application",
+      "name": "github.com/spf13/cobra",
+      "version": "v1.6.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a3de2888fc92e0a0f598fcb67e67186071df0b12ea62324e846b021c566d1330"
+        }
+      ],
+      "purl": "pkg:golang/github.com/spf13/cobra@v1.6.1",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:spf13:cobra:v1.6.1:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-golang.org-x-sys-76269b2f3185dfb4",
+      "type": "application",
+      "name": "golang.org/x/sys",
+      "version": "v0.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "66bd8916d450357dc1099f18b71444f61349602f09e88d4c55b320ea8c14a75f"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/sys@v0.4.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:golang:x\\/sys:v0.4.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "File-harvester-cli-c690273d061aa9d0",
+      "type": "file",
+      "name": "harvester_cli",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "df9800acb98445cdd537c2eedb686dfd300c28d5754208e217bd7cd0f51d3ddc"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-spf13-cobra-83866566d50e6010",
+      "type": "application",
+      "name": "github.com/spf13/cobra",
+      "version": "v1.6.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a3de2888fc92e0a0f598fcb67e67186071df0b12ea62324e846b021c566d1330"
+        }
+      ],
+      "purl": "pkg:golang/github.com/spf13/cobra@v1.6.1",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:spf13:cobra:v1.6.1:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-spf13-pflag-ab5a56fcaff743e1",
+      "type": "application",
+      "name": "github.com/spf13/pflag",
+      "version": "v1.0.5",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8b2f951543823f56bef3216da3f76b836089e6ed3246807b7d9c370cabff2570"
+        }
+      ],
+      "purl": "pkg:golang/github.com/spf13/pflag@v1.0.5",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-valyala-bytebufferpool-ca0d7b2af03fb632",
+      "type": "application",
+      "name": "github.com/valyala/bytebufferpool",
+      "version": "v1.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1aa0394c2ff4d36d58fdbf451b83a2f4caf7abb5d8c7a2a59736b014885c74fc"
+        }
+      ],
+      "purl": "pkg:golang/github.com/valyala/bytebufferpool@v1.0.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:valyala:bytebufferpool:v1.0.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-sirupsen-logrus-5e21773a04cc3470",
+      "type": "application",
+      "name": "github.com/sirupsen/logrus",
+      "version": "v1.9.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b6b94d41b3541b739d0eb0e2974dcc09bd47da8f67275c78ff92d8c3b6f20c4d"
+        }
+      ],
+      "purl": "pkg:golang/github.com/sirupsen/logrus@v1.9.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:sirupsen:logrus:v1.9.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-spiffe-go-spiffe-v2-bda8a492f8a109ae",
+      "type": "application",
+      "name": "github.com/spiffe/go-spiffe/v2",
+      "version": "v2.1.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9df370a2938feead2ab1653a014012aa66ed6158b01c0eafb87c80b6a149b4d7"
+        }
+      ],
+      "purl": "pkg:golang/github.com/spiffe/go-spiffe/v2@v2.1.2",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:spiffe:go-spiffe\\/v2:v2.1.2:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        },
+        {
+          "url": "cpe:2.3:a:spiffe:go_spiffe\\/v2:v2.1.2:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-golang.org-x-net-52cecef46c4dc474",
+      "type": "application",
+      "name": "golang.org/x/net",
+      "version": "v0.5.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1b24f89cafd80c74aa6b5738ef9de8b980836a33982938daf576ff387b60bd2c"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/net@v0.5.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:golang:x\\/net:v0.5.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "File-server-cli-75d64bbdc08ff502",
+      "type": "file",
+      "name": "server_cli",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e2f03b0caea89eafda5ad81aa03855c2daf4cf4685befb05881743fb5aaa7891"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-HewlettPackard-galadriel-7fae39c9a7bfe727",
+      "type": "application",
+      "name": "github.com/HewlettPackard/galadriel",
+      "version": "v0.0.1-next",
+      "purl": "pkg:golang/github.com/HewlettPackard/galadriel@v0.0.1-next",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:HewlettPackard:galadriel:v0.0.1-next:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-golang-protobuf-1990f7671b605e0a",
+      "type": "application",
+      "name": "github.com/golang/protobuf",
+      "version": "v1.5.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "44e3ca04d15f4203943227c7c8ff8a61bbe98db76814db3e68aec35e58e2d13c"
+        }
+      ],
+      "purl": "pkg:golang/github.com/golang/protobuf@v1.5.2",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-hashicorp-hcl-a05e94a4cf89482f",
+      "type": "application",
+      "name": "github.com/hashicorp/hcl",
+      "version": "v1.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d009e5ce3a62e2f11ab1378d167da62c98134b0b74fbab1fb224c6f2a7161b1e"
+        }
+      ],
+      "purl": "pkg:golang/github.com/hashicorp/hcl@v1.0.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:hashicorp:hcl:v1.0.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-golang.org-x-time-8b789010e77989cd",
+      "type": "application",
+      "name": "golang.org/x/time",
+      "version": "v0.2.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e7623fd4be78c7211001876d712bb1b624fce0a1984c1197c1acb1988a4d2611"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/time@v0.2.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:golang:x\\/time:v0.2.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-gopkg.in-square-go-jose.v2-1c08497a43bbd49f",
+      "type": "application",
+      "name": "gopkg.in/square/go-jose.v2",
+      "version": "v2.6.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "34693be164e73ca04d521373417ecf61c4cb523a2aee6cca93638a6efc24da22"
+        }
+      ],
+      "purl": "pkg:golang/gopkg.in/square/go-jose.v2@v2.6.0"
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-labstack-echo-v4-dcfe47da44b1c693",
+      "type": "application",
+      "name": "github.com/labstack/echo/v4",
+      "version": "v4.10.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e428b29e08a110ee075eccf7bd5b099fb7fcc40956c11af7698e88876f3464a0"
+        }
+      ],
+      "purl": "pkg:golang/github.com/labstack/echo/v4@v4.10.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:labstack:echo\\/v4:v4.10.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-mattn-go-isatty-331aaf4e488a3205",
+      "type": "application",
+      "name": "github.com/mattn/go-isatty",
+      "version": "v0.0.16",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6eadd58c59affec3a31ed744866904578c75009b6f52f389d8f140679fa978a4"
+        }
+      ],
+      "purl": "pkg:golang/github.com/mattn/go-isatty@v0.0.16",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:mattn:go-isatty:v0.0.16:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        },
+        {
+          "url": "cpe:2.3:a:mattn:go_isatty:v0.0.16:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-zeebo-errs-7a3c035a1a62e12f",
+      "type": "application",
+      "name": "github.com/zeebo/errs",
+      "version": "v1.3.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "86689a2aa8186737158112f5564735327dbdd7805bcc1d08071b3e79b7aeb46b"
+        }
+      ],
+      "purl": "pkg:golang/github.com/zeebo/errs@v1.3.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:zeebo:errs:v1.3.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "File-tmp-syft-archive-contents-197893980-29f06bf5a07fb554",
+      "type": "file",
+      "name": "/tmp/syft-archive-contents-197893980",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-labstack-gommon-2c36992114c62349",
+      "type": "application",
+      "name": "github.com/labstack/gommon",
+      "version": "v0.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cbb72fb6110011b534c8739fe1ac47f191b6347f249c1f62352a133bc772224f"
+        }
+      ],
+      "purl": "pkg:golang/github.com/labstack/gommon@v0.4.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:labstack:gommon:v0.4.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-pkg-errors-ef629e4cdea9ae8a",
+      "type": "application",
+      "name": "github.com/pkg/errors",
+      "version": "v0.9.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "14404bc75cd2db5e28c298f2eeab017a2c5b51192e850030acae54c0b193c2de"
+        }
+      ],
+      "purl": "pkg:golang/github.com/pkg/errors@v0.9.1",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-gopkg.in-square-go-jose.v2-ee814ebe5336c4f7",
+      "type": "application",
+      "name": "gopkg.in/square/go-jose.v2",
+      "version": "v2.6.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "34693be164e73ca04d521373417ecf61c4cb523a2aee6cca93638a6efc24da22"
+        }
+      ],
+      "purl": "pkg:golang/gopkg.in/square/go-jose.v2@v2.6.0"
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-sirupsen-logrus-6074e8cba0e882ae",
+      "type": "application",
+      "name": "github.com/sirupsen/logrus",
+      "version": "v1.9.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b6b94d41b3541b739d0eb0e2974dcc09bd47da8f67275c78ff92d8c3b6f20c4d"
+        }
+      ],
+      "purl": "pkg:golang/github.com/sirupsen/logrus@v1.9.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:sirupsen:logrus:v1.9.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-spiffe-go-spiffe-v2-227f917fbf05143c",
+      "type": "application",
+      "name": "github.com/spiffe/go-spiffe/v2",
+      "version": "v2.1.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9df370a2938feead2ab1653a014012aa66ed6158b01c0eafb87c80b6a149b4d7"
+        }
+      ],
+      "purl": "pkg:golang/github.com/spiffe/go-spiffe/v2@v2.1.2",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:spiffe:go-spiffe\\/v2:v2.1.2:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        },
+        {
+          "url": "cpe:2.3:a:spiffe:go_spiffe\\/v2:v2.1.2:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-spiffe-spire-api-sdk-d652c5b731ecec4a",
+      "type": "application",
+      "name": "github.com/spiffe/spire-api-sdk",
+      "version": "v1.5.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8f5101d188d95deabaf6edc7af3c3516432a3dea41932f6abee017755f466f2a"
+        }
+      ],
+      "purl": "pkg:golang/github.com/spiffe/spire-api-sdk@v1.5.4",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:spiffe:spire-api-sdk:v1.5.4:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        },
+        {
+          "url": "cpe:2.3:a:spiffe:spire_api_sdk:v1.5.4:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-golang.org-x-sys-423e8ed22724e51e",
+      "type": "application",
+      "name": "golang.org/x/sys",
+      "version": "v0.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "66bd8916d450357dc1099f18b71444f61349602f09e88d4c55b320ea8c14a75f"
+        }
+      ],
+      "purl": "pkg:golang/golang.org/x/sys@v0.4.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:golang:x\\/sys:v0.4.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-google.golang.org-grpc-ca309cbd0efbfa53",
+      "type": "application",
+      "name": "google.golang.org/grpc",
+      "version": "v1.52.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "91de3c52253b107b15e2b9cbc8e251b8ffc897f50713b81d0c043e49923b9d99"
+        }
+      ],
+      "purl": "pkg:golang/google.golang.org/grpc@v1.52.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:google:grpc:v1.52.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-golang-jwt-jwt-95484a83ba8bf23d",
+      "type": "application",
+      "name": "github.com/golang-jwt/jwt",
+      "version": "v3.2.2+incompatible",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "21f575d8af3100a02766a757573099f933a36e867691e2e0f357977d6dcefa86"
+        }
+      ],
+      "purl": "pkg:golang/github.com/golang-jwt/jwt@v3.2.2+incompatible",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:golang-jwt:jwt:v3.2.2\\+incompatible:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        },
+        {
+          "url": "cpe:2.3:a:golang_jwt:jwt:v3.2.2\\+incompatible:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        },
+        {
+          "url": "cpe:2.3:a:golang:jwt:v3.2.2\\+incompatible:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-google-uuid-eb709b1b5afd0f4d",
+      "type": "application",
+      "name": "github.com/google/uuid",
+      "version": "v1.3.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b7a2625e09b05cc8c4b3c56eb172099360571ec9fec31f0165d4daa19e5fbbb2"
+        }
+      ],
+      "purl": "pkg:golang/github.com/google/uuid@v1.3.0",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:google:uuid:v1.3.0:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "Package-go-module-github.com-mattn-go-colorable-0da42be7d79c2e0c",
+      "type": "application",
+      "name": "github.com/mattn/go-colorable",
+      "version": "v0.1.13",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7c5038599c5d105e2d5cf65528c2f00fca149c24d3a34f1db94ef0c5e71d12f0"
+        }
+      ],
+      "purl": "pkg:golang/github.com/mattn/go-colorable@v0.1.13",
+      "externalReferences": [
+        {
+          "url": "cpe:2.3:a:mattn:go-colorable:v0.1.13:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        },
+        {
+          "url": "cpe:2.3:a:mattn:go_colorable:v0.1.13:*:*:*:*:*:*:*",
+          "type": "cpe23Type"
+        }
+      ]
+    },
+    {
+      "bom-ref": "File-README.md-367a886d576a2cf3",
+      "type": "file",
+      "name": "README.md",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2fb77dd1ec890fff45a884f8b92a828fdba94eb64a5f5c650f105e9622ac37b6"
+        }
+      ]
+    }
+  ]
+}
