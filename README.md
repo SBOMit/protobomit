@@ -1,51 +1,67 @@
-# Protobomit  
-   
-Protobomit is a command line tool designed to manage Software Bill of Materials (SBOM) by adding in-toto attestations as an external references.  
-   
-## Features  
-   
-- Generate a new SBOM with associated attestations  
-- Verify SBOM provenance
-- Add in-toto attestations as external references to SBOMs  
-- Support for CycloneDX and SPDX SBOM formats  
-   
-## Installation  
-   
-To install protobomit, you need to have Go installed on your machine. You can download it from the official [Go Downloads](https://golang.org/dl/) page.  
-   
-Once Go is installed, you can install Protobomit by running:  
-   
-```bash  
-go get github.com/testifysec/protobomit  
-```  
-   
-## Usage  
-   
-To generate a new SBOM with associated attestations:  
-   
-```bash  
-./protobomit generate --sbom <path-to-sbom> --attestation <path-to-attestation> --policy <path-to-policy> --publicKey <path-to-public-key>  
-```  
-   
-## Development  
-   
-To contribute to the development of Protobomit, you can clone the repository:  
-   
-```bash  
-git clone https://github.com/testifysec/protobomit.git  
-```  
-   
-Navigate to the cloned repository:  
-   
-```bash  
-cd protobomit  
-```  
-   
-Run tests:  
-   
-```bash  
-go test ./...  
-```  
+# Protobomit
+
+Generate Software Bill of Materials (SBOMs) from Witness attestations.
+
+## Overview
+
+`protobomit` parses witness attestation files and generates SBOMs in SPDX or CycloneDX format. It:
+- Extracts files from attestation types
+- Resolves files to packages using ecosystem-specific resolvers (Python, Go, Rust, etc.)
+- Filters out package files already listed as packages
+- Supports multiple SBOM output formats
+
+## Installation
+
+```bash
+git clone https://github.com/testifysec/protobomit.git
+cd protobomit
+go build -o protobomit ./cmd/root.go ./cmd/generate.go
+```
+
+## Usage
+
+```bash
+./protobomit generate --attestation attestation.json
+
+--attestation string    Path to witness attestation file (required)
+--output string         Output file path (default: stdout)
+--format string         Output format: spdx22, spdx23, cdx14, cdx15 (default: "spdx23")
+--name string           Application name (default: "protobomit-sbom")
+--version string        Application version (default: "1.0.0")
+--author strings        Author(s) - can be repeated
+--types strings         Attestation types to process (default: material,command-run,product)
+```
+
+## Development
+
+### Attestation Extractors
+
+Modular extractors for different attestation types:
+- `MaterialExtractor` - Build Input materials
+- `CommandRunExtractor` - Opened files from processes
+- `ProductExtractor` - Built artifacts
+
+Implement `Extractor` interface to add new types.
+
+### Resolvers
+
+Ecosystem-specific package resolvers that extract packages from file paths:
+- `PythonResolver` - Resolves from `site-packages/`, `dist-packages/`, `.dist-info`
+
+Each resolver implements `Resolver` and optionally `PackageFileFilterer` to filter its own package files.
+
+### Processing Pipeline
+
+```
+Attestation → Extract Files → Filter Cache Files → 
+Run Resolvers → Filter Package Files → Generate SBOM
+```
+
+## Testing
+
+```bash
+go run . generate --attestation test/sample-attestation.json
+``` 
    
 ## License  
    
@@ -57,4 +73,4 @@ Contributions are welcome.
    
 ## Contact  
    
-For any inquiries or issues, please open an issue on the [Protobomit GitHub repository](https://github.com/testifysec/protobomit/issues).
+For any inquiries or issues, please open an issue on the [Protobomit GitHub repository](https://github.com/sbomit/protobomit/issues).
